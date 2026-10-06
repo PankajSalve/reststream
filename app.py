@@ -497,7 +497,7 @@ else:
             st.subheader("Generate Printable Table QR Code")
             qr_col1, qr_col2 = st.columns([1, 1])
             with qr_col1:
-                base_url = st.text_input("Application Base URL", value="http://localhost:8501")
+                base_url = st.text_input("Application Base URL", value="https://reststream.streamlit.app")
                 target_table = st.text_input("Table Identifier", value="T1")
 
                 final_qr_url = f"{base_url.rstrip('/')}/?table={target_table.strip()}"
