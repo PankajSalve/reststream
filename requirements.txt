@@ -1,0 +1,5 @@
+streamlit
+qrcode
+pillow
+fpdf2
+pandas
